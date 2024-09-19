@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .cabeza{
+    position: fixed; /* Hace que el div se mantenga fijo */
+    top: 0; /* Lo fija en la parte superior */
+    left: 0; /* Lo fija en la izquierda */
+    width: 100%; /* Para que ocupe todo el ancho de la página */
+    background-color: #ffffff;
+    border-bottom: 0.1px solid rgb(232, 225, 225); /* Puedes ajustar el grosor y el color de la línea según tus preferencias */
+
+  }
+  .logoCabeza{
+    margin-top: 10px;
+    margin-left: 190px;
+    width: 95px; /* Ancho de la imagen */
+    height: 45px; /* Alto de la imagen */
+  }
+  .instaLogo{
+    width: 100px; /* Ancho de la imagen */
+    height: 100px; /* Alto de la imagen */
+  }
+  .problemas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ingresa{
+    margin-top: 8px;
+    color: #aba2a2;
+    font-size: 14.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .center {
+    width: 370px;
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 3px;
+  }
+  .center .header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 17px;
+  }
+  
+  .center .inputElement {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 37px 0px 37px;
+  }
+  
+  .inputElement .inputText {
+    padding: 8px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .inputText:focus {
+    outline: gray;
+  }
+  
+  .inputButton {
+    background-color: rgb(5, 117, 223);
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    border: none;
+  }
+  .line {
+    display: flex;
+    margin-top: 6px;
+  }
+  .arrow {
+    background-color: gray;
+    height: 1px;
+    width: 140px;
+  }
+  .content {
+    color: gray;
+    margin-top: -7px;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .cuenta {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .crear{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold; /* Aplica negrita al texto */
+
+  }
+  a{
+    text-decoration: none;
+
+  }
+  .final{
+    color: #aba2a2;
+    word-spacing: 10px; /* Ajusta el espacio entre palabras a 2 píxeles */
+    text-align: center;
+    font-size: 12px;
+    color: rgb(102, 97, 97);
+    margin-bottom: 10px;
+  }
+.copy{
+  font-size: 12px;
+  text-align: center;
+  color: #aba2a2;
+}
+.olvidaste{
+  text-decoration: none;
+  font-size: 13px;
+  color:#3897f0;
+}
+.volver{
+  font-size: 14px;
+  font-weight: bold; /* Aplica negrita al texto */
+  text-decoration: none;
+  color: black;
+}
+
+  .fab {
+    padding: 5px;
+    color: rgb(0, 55, 107);
+  }
+  .social__icon span {
+    color: rgb(0, 55, 107);
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .forgetPassword {
+    margin: auto;
+    color: rgb(101, 178, 250);
+    margin-bottom: 25px;
+  }
+  .footer {
+    margin-top: 30px;
+    border: 1px solid rgb(195, 195, 195);
+    padding: 20px;
+    width: 370px;
+    text-align: center;
+  }
+  .footer span {
+    color: rgb(0, 66, 128);
+    font-weight: 400;
+  }
+  input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+input[type="password"]{
+  margin-block: 30px;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #357ae8;
+}
